@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-162dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Scan"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:text="Start" />
+
+            <Button
+                android:id="@+id/Record"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:text="Record" />
+
+            <Button
+                android:id="@+id/PlayRecord"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:text="Play " />
+
+            <Button
+                android:id="@+id/EarseRecord"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:text="Earse" />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/RawBytes"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="16dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/Battery"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/Temperature"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/O2Voltage"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+            <TextView
+                android:id="@+id/O2enable"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/IACRUN"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+            <TextView
+                android:id="@+id/AIRFUELRATIO"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/RPM"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/DESIRED_ENGINE_SPEED"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/Speed"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+            <TextView
+                android:id="@+id/MANIFOLDPRES"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/TPSVoltage"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+
+
+            <TextView
+                android:id="@+id/manifoldtemperature"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+            <TextView
+                android:id="@+id/IACcurrentposition"
+               android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+            <TextView
+                android:id="@+id/IDLEIAC"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+            <TextView
+                android:id="@+id/BPW"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+            <TextView
+                android:id="@+id/selectedoctan"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+
+            <TextView
+                android:id="@+id/SAP"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+
+            <TextView
+                android:id="@+id/BLM"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/BLMCELL"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/INT"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/FANREQ"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/dtCoolantSw"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/HIGHFAN"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+
+            <TextView
+                android:id="@+id/LOWFAN"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/FUELCUTOFF"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/FUELPUMP"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/FLDSRVC"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/CHARPURGE"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/VGIS"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/TPSCLOSED"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/DECELCUTOFF"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/CATCONVOVER"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+
+            <TextView
+                android:id="@+id/IDLERUN"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/INTRESET"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+            <TextView
+                android:id="@+id/RPMLOW"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView " />
+
+
+            <TextView
+                android:id="@+id/ERROR"
+                android:layout_width="350dp"
+                android:layout_height="588dp"
+
+                android:layout_marginTop="0dp"
+
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginBottom="10dp"
+                android:text="TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView
+            TextView TextView TextView TextView TextView TextView TextViewTextViewTextViewTextViewTextView" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
